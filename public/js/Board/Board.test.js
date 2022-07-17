@@ -1,6 +1,6 @@
 const Board = require("./Board");
 
-describe("Given a constructor", () => {
+describe("Given a constructor of a Board object", () => {
   describe("When its called and not recives any parameter", () => {
     test("It should return an array with sub-arrays and inside should have instance of the object Cell", () => {
       const expectedTotal = {

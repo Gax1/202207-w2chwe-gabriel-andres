@@ -3,4 +3,4 @@ const Board = require("./Board/Board");
 
 const bordercito = new Board();
 
-console.log(bordercito);
+console.log(bordercito.boxes[0][0]);
